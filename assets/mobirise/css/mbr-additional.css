@@ -1494,4 +1494,17 @@ body {
 }
 .cid-r9nTKlqDry .mbr-text {
   color: #767676;
+  text-align: left;
+}
+.cid-r9o0MXOw37 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(0deg, #ffffff, #ffffff);
+}
+.cid-r9o0MXOw37 .mbr-iconfont-social {
+  font-size: 32px;
+  color: #f7ed4a;
+}
+.cid-r9o0MXOw37 .social-list a:focus {
+  text-decoration: none;
 }

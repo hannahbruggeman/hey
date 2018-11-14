@@ -41,7 +41,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 39,
+    "uniqCompNum": 44,
     "versionPublish": "4.8.6",
     "screenshot": "screenshot.png"
   },
@@ -88,7 +88,7 @@
             }
           },
           "_name": "header4",
-          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media formaat\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"60\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    INTRO MET AFBEELDING\n                </h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Knappe websites voor mobiel\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Intro met achtergrondafbeelding, kleuroverlay en een afbeelding onderaan. Mobirise helpt u de ontwikkeltijd te verkorten door deze veelzijdige drag-en-drop website-editor.\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-md btn-success-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>MY HOME</a> <a class=\"btn btn-md btn-success-outline\" href=\"my_work.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-hearth mbr-iconfont mbr-iconfont-btn\"></span>MY WORK</a> <a class=\"btn btn-md btn-success-outline\" href=\"page2.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>ABOUT ME</a> <a class=\"btn btn-md btn-success-outline\" href=\"page3.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>CONTACT ME</a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/mbr-1368x912.jpg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media formaat\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"60\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    INTRO MET AFBEELDING\n                </h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Knappe websites voor mobiel\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Intro met achtergrondafbeelding, kleuroverlay en een afbeelding onderaan. Mobirise helpt u de ontwikkeltijd te verkorten door deze veelzijdige drag-en-drop website-editor.\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-md btn-success-outline\" href=\"index.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>MY HOME</a> <a class=\"btn btn-md btn-success-outline\" href=\"my_work.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-hearth mbr-iconfont mbr-iconfont-btn\"></span>MY WORK</a> <a class=\"btn btn-md btn-success-outline\" href=\"page2.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>ABOUT ME</a> <a class=\"btn btn-md btn-success-outline\" href=\"page3.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>CONTACT ME</a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <a href=\"index.html\"><img src=\"@PROJECT_PATH@/assets/images/skrt-1368x967.jpg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title></a>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r95C1f65Yh",
           "_anchor": "header4-c",
           "_protectedParams": [],
@@ -212,7 +212,7 @@
             }
           },
           "_name": "gallery2",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline=\"\">\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline=\"\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-filter=\"\"></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"5\" mbr-gallery-show-bullets mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
           "_cid": "r9nRwlsTtN",
           "_protectedParams": [
             "text_all",
@@ -223,51 +223,12 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "text_all": "All",
+            "text_all": "ALL",
             "gallery__filtersTextStyle": "display-4",
-            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery__filtersBtnStyle": "btn-success-outline",
             "gallery": [
               {
-                "tags": "Geweldige",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Onderschrift hier",
-                "active": true
-              },
-              {
-                "tags": "Sympathieke",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Onderschrift hier",
-                "active": false
-              },
-              {
-                "tags": "Creatieve",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Onderschrift hier",
-                "active": false
-              },
-              {
-                "tags": "Bewegende",
+                "tags": "SKETSCHBOOKS",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -280,46 +241,7 @@
                 "active": false
               },
               {
-                "tags": "Geweldige",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Onderschrift hier",
-                "active": false
-              },
-              {
-                "tags": "Geweldige",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Onderschrift hier",
-                "active": false
-              },
-              {
-                "tags": "Sympathieke",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Onderschrift hier",
-                "active": false
-              },
-              {
-                "tags": "Bewegende",
+                "tags": "MODEL",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -330,6 +252,45 @@
                 "customStyle1": "display-7",
                 "caption": "Onderschrift hier",
                 "active": false
+              },
+              {
+                "tags": "ILLUSTRATIES",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "MODEL",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "ILLUSTRATIES",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1920x1280-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": true
               }
             ]
           },
@@ -360,17 +321,47 @@
               }
             },
             ".mbr-text": {
-              "color": "#767676"
+              "color": "#767676",
+              "text-align": "left"
             }
           },
           "_name": "content7",
-          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline=\"\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Media formaat\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                               <b>Maak uw eigen website in enkele muilsklikken!</b> Mobirise helpt u de ontwikkeltijd te verkorten door u een veelzijdige website-editor te bieden met een drag-en-drop interface. Mobirise Website Builder maakt leuke, retina- en <i>mobiel-vriendelijke websites</i> in een paar muisklikken. Mobirise is een van de gemakkelijkste tools  op de markt voor het ontwikkelen van websites\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"../_images/img/01.jpg\" alt=\"Mobirise\">  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Media formaat\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>send me an e-mail:</b><br><b>hannah_bruggeman@hotmail.com</b><br><b>follew me on instagram:</b><br><b>hannahbruggemann</b></p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"../_images/img/01.jpg\" alt=\"Mobirise\">  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r9nTKlqDry",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
           "_anchor": "content7-12"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(0deg, @color2, @bg-value)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-iconfont-social": {
+              "font-size": "32px",
+              "color": "@iconsColor"
+            },
+            ".social-list": {
+              "a:focus": {
+                "text-decoration": "none"
+              }
+            }
+          },
+          "_name": "social-buttons2",
+          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input inline type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        \n        <input type=\"color\" title=\"Kleur pictogrammen\" name=\"iconsColor\" value=\"#f7ed4a\"> \n        <select title=\"Pictogrammen\" name=\"iconsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"kleur2\" name=\"color2\" condition=\"bg.type=='color'\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#7cd1f6\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-8 align-center\">\n                <h2 class=\"pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    VOLG ONS!\n                </h2>\n                <div class=\"social-list pl-0 mb-0\">\n                    <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon class=\"px-2 socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                    </a>\n                    <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                        <span mbr-icon class=\"px-2 socicon-facebook socicon mbr-iconfont mbr-iconfont-social\" mbr-if=\"iconsCount > 1\"></span>\n                    </a>\n                    <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                        <span mbr-icon class=\"px-2 socicon-instagram socicon mbr-iconfont mbr-iconfont-social\" mbr-if=\"iconsCount > 2\"></span>\n                    </a>\n                    <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                        <span mbr-icon class=\"px-2 socicon-youtube socicon mbr-iconfont mbr-iconfont-social\" mbr-if=\"iconsCount > 3\"></span>\n                    </a>\n                    <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                        <span mbr-icon class=\"px-2 socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\" mbr-if=\"iconsCount > 4\"></span>\n                    </a>\n                    <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                        <span mbr-icon class=\"px-2 socicon-behance socicon mbr-iconfont mbr-iconfont-social\" mbr-if=\"iconsCount > 5\"></span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9o0MXOw37",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "social-buttons2-15"
         }
       ]
     }
